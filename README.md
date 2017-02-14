@@ -6,11 +6,13 @@ Your challenge, if you wish to accept it (and we sure hope you will), is to opti
 ####Part 1: Optimize PageSpeed Insights score for index.html
 
 Starting PageSpeed Insights scores:
+
 | Mobile        | Desktop     | 
 | ------------- |-------------| 
 | 27      | 29 | 
 
 Results:
+
 | Modification | New mobile score | Mobile score change | New desktop score | Desktop score change|
 | ------ | ------ | ------ | ------ | ------ |
 | Optimize images and resize pizzeria.jpg for index.html | 73 | +46 | 88 | +59 |
