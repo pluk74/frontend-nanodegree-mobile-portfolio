@@ -10,10 +10,14 @@ Starting PageSpeed Insights scores:
 | ------------- |-------------| 
 | 27      | 29 | 
 
-
-1. Copy the public URL ngrok gives you and try running it through PageSpeed Insights! Optional: [More on integrating ngrok, Grunt and PageSpeed.](http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/)
-
-Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
+Results:
+| Modification | New mobile score | Mobile score change | New desktop score | Desktop score change|
+| ------ | ------ | ------ | ------ | ------ |
+| Optimize images and resize pizzeria.jpg for index.html | 73 | +46 | 88 | +59 |
+| Switch to Webfont loader (asynchronous) | 77 | +4 | 90| +2 |
+| Add async to google-analytics js | 77 | 0 | 90| 0 |
+| Switch to inline CSS for index.html | 88 | +11 | 94 | +4 |
+| Media query for print.css | 95 | +7 | 94 | 0 |
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
