@@ -25,6 +25,8 @@ Results:
 
 1. main.js, line 455: Move query selector and calculations outside of "for" loop.
 2. pizza.html, line 4: Switch to inline and minified style.css.
+3. Reduced number of moving pizzas from 200 to 22.  The extra pizzas created seemed to be off the viewable area.
+4. Scrolled through all Javascript in main.js to look for "for" loops and removed any unnecessary calculations and/or query selectors: lines 476, 510.
 
 ### Optimization Tips and Tricks
 * [Optimizing Performance](https://developers.google.com/web/fundamentals/performance/ "web performance")
